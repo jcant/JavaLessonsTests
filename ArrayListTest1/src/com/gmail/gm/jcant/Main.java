@@ -28,7 +28,8 @@ public class Main {
 		System.out.println("-----");
 		printArray(apples2);
 		for (Apple apple : apples2) {
-			apple.name="asas";
+			//apple.setName("asas");
+			apple = new Apple("bvvbvbvb");
 		}
 		System.out.println("-----");
 		printArray(apples2);
