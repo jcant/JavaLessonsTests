@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class FactorialThread implements Runnable{
+public class FactorialThread{// implements Runnable{
 
 	private int number;
 
@@ -23,7 +23,7 @@ public class FactorialThread implements Runnable{
 		return fact;
 	}
 	
-	@Override
+	//@Override
 	public void run() {
 		Thread h = Thread.currentThread();
 		for (int i=0; i<number; i+=1) {
